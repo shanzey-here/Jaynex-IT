@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "JAYNEX IT - Your Digital Solutions Partner",
     description: "Transform your digital vision into reality with JAYNEX IT's cutting-edge solutions.",
-    url: "https://jaynextit.com/",
+    url: "https://jaynexit.com/",
     siteName: "JAYNEX IT",
     images: [
       {
@@ -33,10 +33,10 @@ export const metadata: Metadata = {
     title: "JAYNEX IT - Your Digital Solutions Partner",
     description: "Transform your digital vision into reality with JAYNEX IT's cutting-edge solutions.",
     images: ["/og-image.jpg"], // Replace with your actual OG image path
-    creator: "@jaynextit", // Replace with your Twitter handle
+    creator: "@jaynexit", // Replace with your Twitter handle
   },
   alternates: {
-    canonical: "https://jaynextit.com/",
+    canonical: "https://jaynexit.com/",
   },
 };
 
@@ -44,11 +44,11 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "JAYNEX IT",
-  "url": "https://jaynextit.com/",
+  "url": "https://jaynexit.com/",
   "logo": "/logo.png", // Replace with your logo path
   "sameAs": [
-    "https://www.facebook.com/jaynextit", // Replace with your social links
-    "https://twitter.com/jaynextit"
+    "https://www.facebook.com/jaynexit", // Replace with your social links
+    "https://twitter.com/jaynexit"
   ],
   "description": "Transform your digital vision into reality with JAYNEX IT's cutting-edge solutions."
 };
@@ -61,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://jaynextit.com/" />
+        <link rel="canonical" href="https://jaynexit.com/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
