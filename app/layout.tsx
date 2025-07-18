@@ -12,14 +12,17 @@ export const metadata: Metadata = {
   title: "JAYNEX IT - Your Digital Solutions Partner",
   description:
     "Transform your digital vision into reality with JAYNEX IT's cutting-edge solutions.",
+  verification: {
+    google: "o3zL6I4E9qUBHzXPbUGtZyuBFl8YHE7OzohGvLjBdAM"
+  },
   openGraph: {
     title: "JAYNEX IT - Your Digital Solutions Partner",
     description: "Transform your digital vision into reality with JAYNEX IT's cutting-edge solutions.",
-    url: "https://jaynexit.com/",
+    url: "https://jaynex-it.vercel.app/",
     siteName: "JAYNEX IT",
     images: [
       {
-        url: "/og-image.jpg", // Replace with your actual OG image path
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "JAYNEX IT - Your Digital Solutions Partner",
@@ -32,11 +35,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "JAYNEX IT - Your Digital Solutions Partner",
     description: "Transform your digital vision into reality with JAYNEX IT's cutting-edge solutions.",
-    images: ["/og-image.jpg"], // Replace with your actual OG image path
-    creator: "@jaynexit", // Replace with your Twitter handle
+    images: ["/og-image.png"],
+    creator: "@jaynexit",
   },
   alternates: {
-    canonical: "https://jaynexit.com/",
+    canonical: "https://jaynex-it.vercel.app/",
   },
 };
 
@@ -44,10 +47,10 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "JAYNEX IT",
-  "url": "https://jaynexit.com/",
-  "logo": "/logo.png", // Replace with your logo path
+  "url": "https://jaynex-it.vercel.app/",
+  "logo": "/logo.png",
   "sameAs": [
-    "https://www.facebook.com/jaynexit", // Replace with your social links
+    "https://www.facebook.com/jaynexit",
     "https://twitter.com/jaynexit"
   ],
   "description": "Transform your digital vision into reality with JAYNEX IT's cutting-edge solutions."
