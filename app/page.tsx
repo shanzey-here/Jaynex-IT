@@ -79,7 +79,7 @@ export default function Home() {
               title: "Business Development",
               description:
                 "Strategic planning and growth optimization to scale your business. We help identify opportunities and implement solutions for sustainable growth.",
-              href: "/buisness-development",
+              href: "/business-development",
             },
           ]}
           sectionTitle="Our Expertise"

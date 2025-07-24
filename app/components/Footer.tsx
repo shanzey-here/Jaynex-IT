@@ -29,7 +29,7 @@ const Footer = () => {
               <li><Link href="/ui-ux" className="hover:underline">UI/UX Design</Link></li>
               <li><Link href="/digital-media-managing" className="hover:underline">Digital Marketing</Link></li>
               <li><Link href="/web-content-writing" className="hover:underline">Content Writing</Link></li>
-              <li><Link href="/buisness-development" className="hover:underline">Business Development</Link></li>
+              <li><Link href="/business-development" className="hover:underline">Business Development</Link></li>
             </ul>
           </div>
 

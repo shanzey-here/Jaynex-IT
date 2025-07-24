@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "JAYNEX IT - Your Digital Solutions Partner",
     description: "Transform your digital vision into reality with JAYNEX IT's cutting-edge solutions.",
-    url: "https://jaynex-it.vercel.app/",
+    url: "https://jaynexit.com/",
     siteName: "JAYNEX IT",
     images: [
       {
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     creator: "@jaynexit",
   },
   alternates: {
-    canonical: "https://jaynex-it.vercel.app/",
+    canonical: "https://jaynexit.com/",
   },
 };
 
@@ -47,7 +47,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "JAYNEX IT",
-  "url": "https://jaynex-it.vercel.app/",
+  "url": "https://jaynexit.com/",
   "logo": "/logo.png",
   "sameAs": [
     "https://www.facebook.com/jaynexit",
@@ -64,7 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://jaynex-it.vercel.app/" />
+        <link rel="canonical" href="https://jaynexit.com/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
