@@ -2,9 +2,9 @@ import React from "react";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import ScrollEffects from "../components/ScrollEffects";
-import ResultsClient from "./components/ResultsClient";
+// import ResultsClient from "./components/ResultsClient";
 import Process from "../components/Process";
-import CTA from "../components/CTA";
+// import CTA from "../components/CTA";
 
 export default function DigitalMediaManaging() {
   const heroTitle = (
@@ -137,7 +137,7 @@ export default function DigitalMediaManaging() {
           sectionClassName="py-24 bg-white animate-on-scroll"
           gridClassName="grid gap-8 mt-12 sm:grid-cols-2 md:grid-cols-4"
         />
-        <ResultsClient />
+        {/* <ResultsClient />
         <CTA
           title="Ready to Amplify Your Brand?"
           description="Let's discuss your project and bring your vision to life with our expert digital media management services."
@@ -146,7 +146,7 @@ export default function DigitalMediaManaging() {
             { label: 'Get Free Consultation', href: 'mailto:jaynex.tech28@gmail.com', className: 'border border-white px-6 py-3 rounded-full hover:bg-white hover:text-blue-600 transition' },
           ]}
           sectionClassName="bg-gradient-to-br from-blue-500 to-blue-700 text-white py-24 text-center"
-        />
+        /> */}
       </div>
     </ScrollEffects>
   );

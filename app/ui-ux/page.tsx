@@ -3,8 +3,8 @@ import Services from '../components/Services';
 import ScrollEffects from '../components/ScrollEffects';
 import DesignTools from './components/DesignTools';
 import Process from '../components/Process';
-import Portfolio from '../components/Portfolio';
-import CTA from '../components/CTA';
+
+// import CTA from '../components/CTA';
 
 export default function UIUX() {
   const heroTitle = (
@@ -136,28 +136,8 @@ export default function UIUX() {
           gridClassName="process-steps grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8"
         />
         <DesignTools />
-        <Portfolio
-          projects={[
-            {
-              title: 'FinTech Mobile App',
-              description: 'Complete mobile banking app redesign with improved user flows and modern visual design.',
-              tags: ['Mobile Design', 'FinTech', 'iOS', 'Android'],
-            },
-            {
-              title: 'E-commerce Platform',
-              description: 'Comprehensive redesign of shopping experience with focus on conversion optimization.',
-              tags: ['E-commerce', 'Web Design', 'UX Research', 'Conversion'],
-            },
-            {
-              title: 'SaaS Dashboard',
-              description: 'Complex data visualization dashboard with intuitive navigation and clean information hierarchy.',
-              tags: ['Dashboard', 'Data Viz', 'SaaS', 'B2B'],
-            },
-          ]}
-          sectionTitle="Recent Design Projects"
-          sectionDescription="Explore our latest UI/UX design projects that showcase our creativity and user-centered approach."
-        />
-        <CTA
+
+        {/* <CTA
           title="Ready to Build Your Dream Website?"
           description="Let's discuss your project and bring your vision to life with our expert web development services."
           buttons={[
@@ -165,7 +145,7 @@ export default function UIUX() {
             { label: 'View Portfolio', href: '#portfolio', className: 'border border-white px-6 py-3 rounded-full hover:bg-white hover:text-blue-600 transition' },
           ]}
           sectionClassName="bg-gradient-to-br from-blue-500 to-blue-700 text-white py-24 text-center"
-        />
+        /> */}
       </div>
     </ScrollEffects>
   );

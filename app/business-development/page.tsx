@@ -2,8 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import Services from '../components/Services';
 import ScrollEffects from '../components/ScrollEffects';
-import Process from '../components/Process';
-import CTA from '../components/CTA';
+
 
 export default function BusinessDevelopmentPage() {
    const heroTitle = (
@@ -99,43 +98,7 @@ export default function BusinessDevelopmentPage() {
            sectionTitle="Our Business Development Services"
            sectionDescription="We offer a full spectrum of business development solutions tailored to your business needs."
          />
-         <Process
-           steps={[
-             {
-               title: 'Discovery & Analysis',
-               description: 'We conduct thorough analysis of your business, market position, and growth opportunities to understand your unique challenges and goals.',
-             },
-             {
-               title: 'Strategy Development',
-               description: 'Based on our findings, we create a customized business development strategy tailored to your specific needs and market conditions.',
-             },
-             {
-               title: 'Implementation Planning',
-               description: 'We develop detailed implementation plans with clear timelines, milestones, and resource allocation to ensure successful execution.',
-             },
-             {
-               title: 'Execution & Support',
-               description: 'Our team works closely with you to implement the strategies, providing ongoing support and guidance throughout the process.',
-             },
-             {
-               title: 'Monitor & Optimize',
-               description: 'We continuously monitor progress, measure results, and optimize strategies to ensure sustained growth and success.',
-             },
-           ]}
-           sectionTitle="Our Business Development Process"
-           sectionDescription="We follow a proven process to deliver outstanding results for your business."
-           sectionClassName="py-24 bg-white animate-on-scroll"
-           gridClassName="grid gap-8 mt-12 sm:grid-cols-2 md:grid-cols-4"
-         />
-         <CTA
-           title="Ready to Accelerate Your Growth?"
-           description="Let's discuss your project and bring your vision to life with our expert business development services."
-           buttons={[
-             { label: 'Start Your Growth Journey', href: '/contact', className: 'bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-slate-100 transition' },
-             { label: 'Schedule Consultation', href: 'mailto:jaynex.tech28@gmail.com', className: 'border border-white px-6 py-3 rounded-full hover:bg-white hover:text-blue-600 transition' },
-           ]}
-           sectionClassName="bg-gradient-to-br from-blue-500 to-blue-700 text-white py-24 text-center"
-         />
+
        </div>
      </ScrollEffects>
    );

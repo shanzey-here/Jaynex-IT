@@ -16,7 +16,7 @@ export default function Home() {
   );
 
   const heroSubtitle =
-    "We're JAYNEX IT, your trusted software house delivering cutting-edge digital solutions. From web development to business growth, we craft experiences that drive results.";
+    "We're JAYNEX IT, your trusted digital agency delivering cutting-edge digital solutions. From web development to business growth, we craft experiences that drive results.";
 
   const heroButtons = [
     {

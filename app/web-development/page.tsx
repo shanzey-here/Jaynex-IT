@@ -5,8 +5,8 @@ import ScrollEffects from "../components/ScrollEffects";
 import TechStack from "./components/TechStack";
 import ContactForm from "./components/ContactForm";
 import Process from "../components/Process";
-import Portfolio from "../components/Portfolio";
-import CTA from "../components/CTA";
+
+// import CTA from "../components/CTA";
 
 export default function WebDevelopmentPage() {
   const heroTitle = (
@@ -142,28 +142,8 @@ export default function WebDevelopmentPage() {
           sectionTitle="Our Development Process"
           sectionDescription="We follow a proven methodology to ensure your project is delivered on time, within budget, and exceeds expectations."
         />
-        <Portfolio
-          projects={[
-            {
-              title: "E-commerce Platform",
-              description: "A full-featured online store with custom shopping cart, payment integration, and admin dashboard.",
-              tags: ["React", "Node.js", "MongoDB", "Stripe"],
-            },
-            {
-              title: "Corporate Website",
-              description: "Professional corporate website with CMS, blog functionality, and lead generation forms.",
-              tags: ["HTML5", "CSS3", "JavaScript", "WordPress"],
-            },
-            {
-              title: "SaaS Application",
-              description: "Cloud-based software application with user authentication, subscription management, and analytics.",
-              tags: ["React", "Python", "PostgreSQL", "AWS"],
-            },
-          ]}
-          sectionTitle="Recent Projects"
-          sectionDescription="Take a look at some of our recent web development projects that showcase our expertise and creativity."
-        />
-        <CTA
+
+        {/* <CTA
           title="Ready to Build Your Dream Website?"
           description="Let's discuss your project and bring your vision to life with our expert web development services."
           buttons={[
@@ -179,7 +159,7 @@ export default function WebDevelopmentPage() {
             },
           ]}
           sectionClassName="bg-gradient-to-br from-blue-500 to-blue-700 text-white py-24 text-center"
-        />
+        /> */}
         <ContactForm />
       </main>
     </ScrollEffects>

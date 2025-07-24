@@ -4,7 +4,7 @@ import Services from "../components/Services";
 import ScrollEffects from "../components/ScrollEffects";
 import ProvidingClient from "./components/ProvidingClient";
 import Process from "../components/Process";
-import CTA from "../components/CTA";
+// import CTA from "../components/CTA";
 
 export default function SocialMediaManagementPage() {
   const heroTitle = (
@@ -111,7 +111,7 @@ export default function SocialMediaManagementPage() {
           sectionClassName="py-24 bg-white animate-on-scroll"
           gridClassName="grid gap-8 mt-12 sm:grid-cols-2 md:grid-cols-4"
         />
-        <CTA
+        {/* <CTA
           title="Ready to Grow Your Social Presence?"
           description="Let's discuss your project and bring your vision to life with our expert social media management services."
           buttons={[
@@ -119,7 +119,7 @@ export default function SocialMediaManagementPage() {
             { label: 'View All Services', href: '/' , className: 'border border-white px-6 py-3 rounded-full hover:bg-white hover:text-blue-600 transition' },
           ]}
           sectionClassName="bg-gradient-to-br from-blue-500 to-blue-700 text-white py-24 text-center"
-        />
+        /> */}
       </main>
     </ScrollEffects>
   );
